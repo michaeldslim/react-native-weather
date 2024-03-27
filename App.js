@@ -26,7 +26,7 @@ const icons = {
 };
 
 export default function App() {
-  const [city, setCity] = useState("Loading...");
+  const [city, setCity] = useState("Loading.....");
   const [days, setDays] = useState([]);
   const [, setOk] = useState(true);
   const getWeather = async () => {
